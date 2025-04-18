@@ -1,0 +1,40 @@
+.creator-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .creator-page h1 {
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+  
+  .creator-page .role {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .creator-page section {
+    margin-bottom: 30px;
+  }
+  
+  .creator-page ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .creator-page ul li {
+    margin-bottom: 8px;
+  }
+  
+  .creator-page a {
+    color: #35c9cf;
+    text-decoration: none;
+  }
+  
+  .creator-page a:hover {
+    text-decoration: underline;
+  }
+  

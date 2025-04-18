@@ -1,0 +1,51 @@
+.homepage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .homepage-banner {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .homepage-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .home-link-card {
+    display: block;
+    padding: 15px 20px;
+    background-color: #35c9cf;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    text-align: center;
+  }
+  
+  .home-link-card:hover {
+    background-color: #2db5ba;
+  }
+  
+  /* Optional: Side-by-side on large screen */
+  @media screen and (min-width: 768px) {
+    .homepage-links {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .home-link-card {
+      flex: 1;
+      max-width: 250px;
+    }
+  }
+  
