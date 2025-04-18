@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="logo">
-            <img src={PilgrimLogo} style={{height:'40px'}}/>
+            <img src={PilgrimLogo} style={{height:'40px'}} alt='logo'/>
         </div>
 
         <div className="hamburger" onClick={toggleMenu}>
